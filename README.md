@@ -141,8 +141,7 @@ Power BI Dashboard highlights:
 - Performance heatmaps  
 
 📊 **Dashboard Preview**:  
-![Vendor Dashboard](<img width="1363" height="774" alt="dashboard image" src="https://github.com/user-attachments/assets/7e4504b0-cb05-4eff-8b2b-fc274ac82f0b" />
-)  
+![Vendor Dashboard](dashboard image.png)  
 
 ---
 
@@ -167,7 +166,7 @@ notebooks/vendor_performance_analysis.ipynb
 dashboard/vendor_performance_dashboard.pbix
 
 
-## 📌 Final Recommendations
+**## 📌 Final Recommendations**
 
 Based on the vendor performance analysis, the following recommendations are proposed to strengthen operations and maximize profitability:
 
