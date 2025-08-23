@@ -168,17 +168,6 @@ dashboard/vendor_performance_dashboard.pbix
 
 ---
 
-## 📂 Dataset  
-- Multiple CSV files located in `/data/` folder (sales, vendors, inventory)  
-- Summary tables created from ingested data and used for analysis  
-
----
-
-
-
-
-
-
 ##  📌 Final Recommendations
 
 Based on the vendor performance analysis, the following recommendations are proposed to strengthen operations and maximize profitability:
