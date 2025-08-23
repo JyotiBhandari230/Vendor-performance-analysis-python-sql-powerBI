@@ -165,6 +165,8 @@ notebooks/vendor_performance_analysis.ipynb
 
 # Open Power BI Dashboard:
 dashboard/vendor_performance_dashboard.pbix
+
+
 ----
 
 ##  📌 Final Recommendations
