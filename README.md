@@ -166,8 +166,18 @@ notebooks/vendor_performance_analysis.ipynb
 # Open Power BI Dashboard:
 dashboard/vendor_performance_dashboard.pbix
 
+---
 
-----
+## 📂 Dataset  
+- Multiple CSV files located in `/data/` folder (sales, vendors, inventory)  
+- Summary tables created from ingested data and used for analysis  
+
+---
+
+
+
+
+
 
 ##  📌 Final Recommendations
 
