@@ -154,4 +154,6 @@ cd vendor-performance-analysis
 # Install dependencies
 pip install -r requirements.txt
 
+python scripts/ingestion_db.py
+python scripts/get_vendor_summary.py
 
