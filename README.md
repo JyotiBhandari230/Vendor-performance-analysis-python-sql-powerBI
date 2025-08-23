@@ -67,3 +67,91 @@ Effective inventory and sales management are critical in the retail sector. This
 ---
 
 ## 📂 Project Structure  
+vendor-performance-analysis/
+│
+├── README.md
+├── .gitignore
+├── requirements.txt
+├── Vendor Performance Report.pdf
+│
+├── notebooks/                  # Jupyter notebooks
+│   ├── EDA.ipynb
+│   ├── vendor_performance_analysis.ipynb
+│   ├── db creation & scripting.ipynb
+│
+├── scripts/                    # Python scripts for ingestion and processing
+│   ├── ingestion_db.py
+│   └── get_vendor_summary.py
+│
+├── dashboard/                  # Power BI dashboard file
+│   └── dashboard data
+│   └── vendor_performance_dashboard.pbix
+│   └── Dashboard Image.png
+├── dataset/                  # Project Dataset
+│   └── data.txt
+
+
+
+---
+
+## 🧹 Data Cleaning & Preparation  
+- Removed transactions with:  
+  - Gross Profit ≤ 0  
+  - Profit Margin ≤ 0  
+  - Sales Quantity = 0  
+- Created **summary tables** with vendor-level metrics  
+- Converted data types, handled outliers, merged lookup tables  
+
+---
+
+## 📊 Exploratory Data Analysis (EDA)  
+**Negative or Zero Values Detected**  
+- Loss-making sales (Gross Profit min: -52,002.78)  
+- Sales at or below cost (Profit Margin = -∞)  
+- Unsold inventory (slow-moving stock)  
+
+**Outliers Identified**  
+- High Freight Costs (up to 257K)  
+- Extreme purchase/actual price variations  
+
+**Correlation Analysis**  
+- Weak: Purchase Price vs Profit  
+- Strong: Purchase Qty vs Sales Qty (0.999)  
+- Negative: Profit Margin vs Sales Price (-0.179)  
+
+---
+
+## 🔍 Research Questions & Key Findings  
+1. **Brands for Promotions** → 198 brands with low sales but high profit margins  
+2. **Top Vendors** → 10 vendors = 65.7% of purchases (risk of over-reliance)  
+3. **Bulk Purchasing Impact** → 72% cost savings per unit in large orders  
+4. **Inventory Turnover** → $2.71M worth of unsold inventory  
+5. **Vendor Profitability**  
+   - High Vendors: Mean Margin = 31.17%  
+   - Low Vendors: Mean Margin = 41.55%  
+6. **Hypothesis Testing** → Statistically significant differences in vendor strategies  
+
+---
+
+## 📈 Dashboard  
+Power BI Dashboard highlights:  
+- Vendor-wise sales & margins  
+- Inventory turnover  
+- Bulk purchase savings  
+- Performance heatmaps  
+
+📊 **Dashboard Preview**:  
+![Vendor Dashboard](dashboard/Dashboard_Image.png)  
+
+---
+
+## ⚡ How to Run This Project  
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/vendor-performance-analysis.git
+cd vendor-performance-analysis
+
+# Install dependencies
+pip install -r requirements.txt
+
+
