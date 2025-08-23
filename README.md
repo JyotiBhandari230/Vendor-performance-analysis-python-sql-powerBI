@@ -141,7 +141,8 @@ Power BI Dashboard highlights:
 - Performance heatmaps  
 
 📊 **Dashboard Preview**:  
-![Vendor Dashboard](dashboard/Dashboard_Image.png)  
+![Vendor Dashboard](<img width="1363" height="774" alt="dashboard image" src="https://github.com/user-attachments/assets/7e4504b0-cb05-4eff-8b2b-fc274ac82f0b" />
+)  
 
 ---
 
