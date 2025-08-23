@@ -154,6 +154,41 @@ cd vendor-performance-analysis
 # Install dependencies
 pip install -r requirements.txt
 
+# Run the ingestion pipeline:
 python scripts/ingestion_db.py
 python scripts/get_vendor_summary.py
+
+# Open Jupyter Notebooks:
+notebooks/EDA.ipynb
+notebooks/vendor_performance_analysis.ipynb
+
+# Open Power BI Dashboard:
+dashboard/vendor_performance_dashboard.pbix
+
+
+## 📌 Final Recommendations
+
+Based on the vendor performance analysis, the following recommendations are proposed to strengthen operations and maximize profitability:
+
+1. **🌐 Diversify Vendor-Based Risk**  
+   - Reduce dependency on a few vendors by expanding the supplier base.  
+   - This helps mitigate risks of supply chain disruption and ensures business continuity.
+
+2. **📦 Optimize Bulk Order Strategy**  
+   - Place bulk orders with top-performing vendors to leverage discounts and ensure timely availability.  
+   - Maintain a balance to avoid overstocking and holding costs.
+
+3. **💰 Reprice Slow-Moving High-Margin Vendors**  
+   - Identify vendors whose products have high margins but low sales velocity.  
+   - Reprice strategically to boost sales without compromising profitability.
+
+4. **📉 Clear Unsold Inventory Strategically**  
+   - Use promotions, discounts, or bundling techniques to clear slow-moving or unsold stock.  
+   - Prevents capital lock-in and frees up storage for fast-moving products.
+
+5. **📢 Improve Marketing for Underperforming Vendors**  
+   - Increase visibility and targeted promotions for vendors with potential but lower performance.  
+   - Implement digital marketing, campaigns, or loyalty programs to boost their sales contribution.
+
+✅ By applying these strategies, the organization can reduce risks, improve vendor collaboration, and achieve sustainable growth.
 
